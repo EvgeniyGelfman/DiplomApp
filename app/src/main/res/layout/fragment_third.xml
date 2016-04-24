@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:text="@string/fragment_third"
+        android:textSize="@dimen/main_header" />
+
+    <EditText
+        android:id="@+id/etSquare"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/tvHeader"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/house_square" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/etSquare"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/price" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPrice"
+        android:layout_centerHorizontal="true"
+        android:text="Save"/>
+
+
+</RelativeLayout>

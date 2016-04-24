@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiplomApp</string>
+    <string name="fragment_first">Main data</string>
+    <string name="heat_amount">Heat Amount</string>
+    <string name="heat_transfer_consumption">Heat Transfer Consumption</string>
+    <string name="heat_power">Heat Power</string>
+
+    <string name="fragment_second">Temperature data</string>
+    <string name="inner_temp">Inner temperature</string>
+    <string name="outer_temp">Outer temperature</string>
+    <string name="fragment_third">Square and price</string>
+    <string name="house_square">house square</string>
+    <string name="price">1gcal</string>
+</resources>
