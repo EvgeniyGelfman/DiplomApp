@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bb_menu_inputData"
+        android:icon="@drawable/ic_recents"
+        android:title="Input" />
+    <item
+        android:id="@+id/bb_menu_Costs"
+        android:icon="@drawable/ic_favorites"
+        android:title="Expences" />
+    <item
+        android:id="@+id/bb_menu_Calendar"
+        android:icon="@drawable/ic_nearby"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/bb_menu_Analytics"
+        android:icon="@drawable/ic_friends"
+        android:title="Analytics" />
+
+</menu>
