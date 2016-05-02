@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+        android:id="@+id/bb_menu_main"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        android:title="Main"
+        />
     <item
         android:id="@+id/bb_menu_inputData"
         android:icon="@drawable/ic_recents"
         android:title="Input" />
     <item
-        android:id="@+id/bb_menu_Costs"
+        android:id="@+id/bb_menu_Expences"
         android:icon="@drawable/ic_favorites"
         android:title="Expences" />
     <item

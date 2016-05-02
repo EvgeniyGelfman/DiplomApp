@@ -1,6 +1,6 @@
 package com.gelfman.diplomapp.fragments.InsertData;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -50,6 +50,14 @@ public class FragmentSecond extends Fragment {
         return view;
     }
 
+    public static Fragment newInstance(String text) {
+        FragmentFirst f = new FragmentFirst();
+        Bundle b = new Bundle();
+        b.putString("msg", text);
+
+        f.setArguments(b);
+        return f;
+    }
 
 
     public interface ISecondFragmentAction {
