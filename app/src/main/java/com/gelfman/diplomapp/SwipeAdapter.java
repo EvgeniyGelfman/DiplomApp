@@ -3,8 +3,6 @@ package com.gelfman.diplomapp;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.widget.BaseAdapter;
-
 import com.gelfman.diplomapp.fragments.InsertData.FragmentFirst;
 import com.gelfman.diplomapp.fragments.InsertData.FragmentSecond;
 import com.gelfman.diplomapp.fragments.InsertData.FragmentThird;

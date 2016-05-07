@@ -51,7 +51,7 @@ public class FragmentSecond extends Fragment {
     }
 
     public static Fragment newInstance(String text) {
-        FragmentFirst f = new FragmentFirst();
+        FragmentSecond f = new FragmentSecond();
         Bundle b = new Bundle();
         b.putString("msg", text);
 
