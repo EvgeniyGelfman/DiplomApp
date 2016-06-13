@@ -17,31 +17,31 @@
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/tvHeader"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/heat_amount" />
+        android:hint="@string/heat_amount" />
 
     <EditText
         android:id="@+id/etHeatTransferConsumption"
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/etHeatAmount"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/heat_transfer_consumption" />
+        android:hint="@string/heat_transfer_consumption"/>
 
     <EditText
         android:id="@+id/etHeatPower"
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/etHeatTransferConsumption"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/heat_power" />
+        android:hint="@string/heat_power" />
 
     <TextView
         android:id="@+id/tvCurrentDate"

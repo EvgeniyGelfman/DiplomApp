@@ -3,16 +3,16 @@
     <item
         android:id="@+id/bb_menu_main"
         android:icon="@android:drawable/ic_lock_idle_lock"
-        android:title="Main"
+        android:title="Browse"
         />
     <item
         android:id="@+id/bb_menu_inputData"
         android:icon="@drawable/ic_recents"
         android:title="Input" />
     <item
-        android:id="@+id/bb_menu_Expences"
+        android:id="@+id/bb_menu_Statistics"
         android:icon="@drawable/ic_favorites"
-        android:title="Expences" />
+        android:title="Statistics" />
     <item
         android:id="@+id/bb_menu_Calendar"
         android:icon="@drawable/ic_nearby"

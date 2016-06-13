@@ -31,7 +31,7 @@ public class CalendarActivity extends AppCompatActivity {
                     case (R.id.bb_menu_inputData):
                         switchActivity(MainActivity.class);
                         break;
-                    case (R.id.bb_menu_Expences):
+                    case (R.id.bb_menu_Statistics):
                         switchActivity(ExpencesActivity.class);
                         break;
                     case (R.id.bb_menu_Calendar):

@@ -17,21 +17,21 @@
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/tvHeader"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/inner_temp" />
+        android:hint="@string/inner_temp" />
 
     <EditText
         android:id="@+id/etOuterTemp"
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/etInnerTemp"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/outer_temp" />
+        android:hint="@string/outer_temp" />
 
     <TextView
         android:id="@+id/tvCurrentDate"

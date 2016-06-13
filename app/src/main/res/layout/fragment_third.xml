@@ -17,21 +17,21 @@
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/tvHeader"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/house_square" />
+        android:hint="@string/house_square" />
 
     <EditText
         android:id="@+id/etPrice"
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_below="@id/etSquare"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/price" />
+        android:hint="@string/price" />
 
 
     <Button
