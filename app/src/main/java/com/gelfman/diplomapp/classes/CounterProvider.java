@@ -7,12 +7,43 @@ import java.util.ArrayList;
  */
 public class CounterProvider {
 
-    private static CounterProvider instance = null;
+    private static CounterProvider mInstance = null;
 
-    public static CounterProvider getInstance(){
-        if (instance == null)
-            instance = new CounterProvider();
-        return instance;
+    private ArrayList<Counter> counterList;
+
+    private CounterProvider() {
+        counterList = new ArrayList<>();
     }
 
+    public static CounterProvider getInstance(){
+        if (mInstance == null) {
+            mInstance = new CounterProvider();
+        }
+        return mInstance;
+    }
+
+    public ArrayList<Counter> getCounterList() {
+        return counterList;
+    }
+
+    public void setCounterList(ArrayList<Counter> counterList) {
+        this.counterList = counterList;
+    }
+
+    public Counter getCounter(int index) {
+        return counterList.get(index);
+    }
+
+    public void setCounter(int index, Counter counter) {
+        counterList.set(index, counter);
+    }
+
+    public void addCounter(Counter counter) {
+        counterList.add(counter);
+    }
+
+    public int getCounterSize() {
+        return counterList.size();
+    }
 }
+

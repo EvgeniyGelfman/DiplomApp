@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -25,6 +26,8 @@ public class FragmentBrowse extends Fragment implements AdapterView.OnItemSelect
 
     private BrowseGridAdapter adapter;
 
+    private Button btnAddCounter;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         Log.d("fragment browse", "created");
@@ -38,7 +41,7 @@ public class FragmentBrowse extends Fragment implements AdapterView.OnItemSelect
 
         gridView = (GridView) view.findViewById(R.id.gvGirdView);
         info = (TextView) view.findViewById(R.id.info);
-
+        btnAddCounter = (Button) view.findViewById(R.id.btnAddCounter);
         adapter = new BrowseGridAdapter(getActivity());
 
         gridView.setAdapter(adapter);
