@@ -21,7 +21,7 @@ public class FragmentStatistics extends Fragment {
         View v = inflater.inflate(R.layout.fragment_statistics, container, false);
 
         TextView heatAmountLast = (TextView) v.findViewById(R.id.tvHeatAmountLast);
-        heatAmountLast.setText(Float.toString(Dimensions.getInstance().getHeatAmount()));
+//        heatAmountLast.setText(Float.toString(Dimensions.getInstance().getHeatAmount()));
 
         return v;
     }

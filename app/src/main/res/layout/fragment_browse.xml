@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:layout_height="fill_parent">
 
     <TextView
         android:id="@+id/info"
@@ -10,18 +9,25 @@
         android:layout_height="wrap_content"
         android:text="" />
 
-    <GridView
+    <!--<GridView
         android:id="@+id/gvGirdView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
         android:gravity="center"
         android:horizontalSpacing="5dp"
         android:numColumns="2"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="5dp"></GridView>
+        android:verticalSpacing="5dp"></GridView>-->
 
+    <ListView
+        android:id="@+id/lvCounterList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
     <Button
         android:id="@+id/btnAddCounter"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvCounterList"
+        android:text="Add Counter"/>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.AddCounterActivity">
+
+    <EditText
+        android:id="@+id/etCounterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type in name of the fucking counter"/>
+
+    <EditText
+        android:id="@+id/etCounterModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write here counter model, bitch"
+        android:layout_below="@id/etCounterName"/>
+
+    <EditText
+        android:id="@+id/etCounterInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Some additional info"
+        android:layout_below="@id/etCounterModel"/>
+
+    <EditText
+        android:id="@+id/etCounterCoord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCounterInfo"/>
+
+    <Button
+        android:id="@+id/btnSaveCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCounterCoord"
+        android:text="Save"/>
+
+
+
+</RelativeLayout>

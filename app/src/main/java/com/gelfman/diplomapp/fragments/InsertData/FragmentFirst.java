@@ -64,8 +64,8 @@ public class FragmentFirst extends Fragment {
         View.OnFocusChangeListener listener = new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(!hasFocus)
-                    addToDimension((int)v.getTag());
+//                if(!hasFocus)
+//                    addToDimension((int)v.getTag());
             }
         };
 
@@ -87,25 +87,25 @@ public class FragmentFirst extends Fragment {
         return view;
     }
 
-    private void addToDimension(int tag) {
-       switch (tag){
-           case 1:
-               if (etHeatAmount.getText().length() != 0)
-                    Dimensions.getInstance()
-                            .setHeatAmount(Float.valueOf(etHeatAmount.getText().toString()));
-               break;
-           case 2:
-               if (etHeatConsuption.getText().length() != 0)
-                    Dimensions.getInstance()
-                            .setHeatConsumption(Float.valueOf(etHeatConsuption.getText().toString()));
-               break;
-           case 3:
-               if (etHeatPower.getText().length() != 0)
-                    Dimensions.getInstance()
-                            .setHeatPower(Float.valueOf(etHeatPower.getText().toString()));
-               break;
-       }
-    }
+//    private void addToDimension(int tag) {
+//       switch (tag){
+//           case 1:
+//               if (etHeatAmount.getText().length() != 0)
+//                    Dimensions.getInstance()
+//                            .setHeatAmount(Float.valueOf(etHeatAmount.getText().toString()));
+//               break;
+//           case 2:
+//               if (etHeatConsuption.getText().length() != 0)
+//                    Dimensions.getInstance()
+//                            .setHeatConsumption(Float.valueOf(etHeatConsuption.getText().toString()));
+//               break;
+//           case 3:
+//               if (etHeatPower.getText().length() != 0)
+//                    Dimensions.getInstance()
+//                            .setHeatPower(Float.valueOf(etHeatPower.getText().toString()));
+//               break;
+//       }
+//    }
 
     /*private void addData() {
         float heatAmount = 0,
